@@ -12,7 +12,7 @@ This enforces the strict rules of slugify to not have to mannually add them each
 
 The slugify options enabled in the funtion:
 
-```json
+```javascript
 {
   "lower": true,
   "remove": /[*+~.()'"!:@]/g,
