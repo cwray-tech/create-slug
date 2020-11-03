@@ -1,21 +1,20 @@
 {
   "name": "create-slug",
-  "version": "1.0.2",
-  "description": "Create a url friendly slug from parameters.",
+  "version": "1.0.3",
+  "description": "Create a url friendly slug from parameters using the Slugify package.",
   "main": "index.js",
   "dependencies": {
     "slugify": "^1.4.5"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "test"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cwray-tech/create-slug.git"
   },
   "keywords": [
-    "slug"
+    "slug",
+    "slugify"
   ],
   "author": {
     "name": "Chris Wray",
