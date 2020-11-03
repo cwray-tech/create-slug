@@ -8,18 +8,29 @@ This package uses the Slugify package, but does not offer any customizations. If
 
 ## What it does
 
-This enforces the strict rules of slugify to not have to mannually add them each time you want to create a url. This is also set to the English language setting on the slugify settings.
+This enforces the strict rules of slugify to not have to mannually add them each time you want to create a url. This will create url friendly slugs, versus the base slugify option which will not remove some characters and not transform characters to lowercase. This is also set to the English language setting on the slugify settings.
+
+The slugify options enabled in the funtion:
+
+```json
+{
+  "lower": true,
+  "remove": /[*+~.()'"!:@]/g,
+  "strict": true,
+  "locale": "en"
+}
+```
 
 ## Usage
 
 Create a constant for the function of your choice.
 
-```
-const createSlug = require('create-slug')
+```javascript
+const createSlug = require("create-slug");
 ```
 
 Then insert your text in the function as a parameter to get the slug.
 
-```
-let slug = createSlug('Text to be turned into a slug')
+```javascript
+let slug = createSlug("Text to be turned into a slug");
 ```
