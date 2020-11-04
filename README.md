@@ -21,9 +21,15 @@ This enforces the strict rules of slugify to not have to manually add them each 
 }
 ```
 
+## Installation
+
+```bash
+npm i create-slug
+```
+
 ## Usage
 
-Create a constant for the function of your choice.
+Require the module in your file.
 
 ```javascript
 const createSlug = require("create-slug");
