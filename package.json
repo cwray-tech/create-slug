@@ -1,6 +1,6 @@
 {
   "name": "create-slug",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create a url friendly slug from parameters using the Slugify package.",
   "main": "index.js",
   "dependencies": {
