@@ -39,4 +39,5 @@ Then insert your text in the function as a parameter to get the slug.
 
 ```javascript
 let slug = createSlug("Text to be turned into a slug");
+//returns "text-to-be-turned-into-a-slug"
 ```
