@@ -4,7 +4,7 @@
   "description": "Create a url friendly slug from parameters using the Slugify package.",
   "main": "index.js",
   "dependencies": {
-    "slugify": "^1.4.5"
+    "slugify": "^1.6.5"
   },
   "devDependencies": {},
   "scripts": {},
